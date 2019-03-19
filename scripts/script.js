@@ -44,9 +44,13 @@ function showColors(){
   mainColors.innerHTML = '';
 
   colors.forEach((color, i) => {
+    let colorContainer =element('div', '', 'color-container', color);
     let colorDiv =element('div', '', 'color-div', color);
+    let buttonDiv =element('div', '', 'button-div', color);
     let colorElement = element('span', color, 'color-element', color);
     let copyButtonElement = element('button', 'Copy', 'copy-button', '');
+
+    
 
     copyButtonElement.addEventListener('click', (e)=>{
       try {
@@ -63,8 +67,10 @@ function showColors(){
       document.execCommand("copy");
     });
     colorDiv.appendChild(colorElement);
-    colorDiv.appendChild(copyButtonElement);
-    mainColors.appendChild(colorDiv);
+    buttonDiv.appendChild(copyButtonElement);
+    colorContainer.appendChild(colorDiv);
+    colorContainer.appendChild(buttonDiv);
+    mainColors.appendChild(colorContainer);
     
   });
 }

@@ -44,28 +44,44 @@ img {
   /*text-align: center;*/
   line-height: 8vw;
   border-radius: 10px;  
-  border: 1px solid red;
+  border: 0px solid red;
   display: flex;
   
+ }
+
+ .color-container {
+   display: flex;
+   flex: 1 1 100%;
+   border-radius: 10px;
+   
  }
 
 .color-div {
   
-  width: 100%;
-  display: flex;
-  border: 2px solid blue;
+  flex: 1;
+  width: 50%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.button-div{
+  flex: 1;
+  width: 50%;
+  
+  text-align: center;
+  border-radius: 10px;
 }
  
 
  .color-element {
-   /*margin-left: 10%;*/
-   flex: 1;
+  /* margin-left: 30%;*/
+  
   
  }
 
  .copy-button {
-   /*margin-left: 60%;*/
-   flex: 1;
+   /*margin-left: 30%;*/
+   
    
  }
 
