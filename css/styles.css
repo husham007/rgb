@@ -33,28 +33,40 @@ img {
 }
 
 .main {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  align-items: center;
+ 
   
 }
 
 .main-colors {
   width: 100%; 
+  flex-direction: column;
   flex: 1 1 100%; 
   /*text-align: center;*/
   line-height: 8vw;
-  border-radius: 10px;
+  border-radius: 10px;  
+  border: 1px solid red;
+  display: flex;
   
  }
 
+.color-div {
+  
+  width: 100%;
+  display: flex;
+  border: 2px solid blue;
+}
+ 
+
  .color-element {
-   margin-left: 10%;
+   /*margin-left: 10%;*/
+   flex: 1;
+  
  }
 
  .copy-button {
-   margin-left: 60%;
+   /*margin-left: 60%;*/
+   flex: 1;
+   
  }
 
  

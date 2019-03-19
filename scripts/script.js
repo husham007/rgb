@@ -65,5 +65,6 @@ function showColors(){
     colorDiv.appendChild(colorElement);
     colorDiv.appendChild(copyButtonElement);
     mainColors.appendChild(colorDiv);
+    
   });
 }
