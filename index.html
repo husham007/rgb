@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Random Color Generator</title>
-</head>
-<body>
-  <div class = 'container'>
-    <div class="header">
-      <h1>Hexadecimal Random Color Generator</h1>
-      <input type="text"> 
-      <button>Generate</button>
-      <p>Color change People Emotions, So, put meaningful colors on your sites</p>
-    </div>
-    <div class="main">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Random Color Generator</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    
+  </head>
 
+  <body>
+    
+    <div class="container">
+      <div class="header">
+        <h1>Hexadecimal Random Color Generator</h1>
+        <div>
+          <input type="text" placeholder="Enter a number greater than 5" />
+          <button class="generate">Generate</button>
+        </div>
+        <p>
+          Color change People Emotions, So, put meaningful colors on your sites
+        </p>
+      </div>
+      <div class="main">
+        <div class="main-colors"></div>
+      </div>
     </div>
-  </div>
-</body>
+    <script src="./scripts/script.js"></script>
+  </body>
 </html>

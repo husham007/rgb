@@ -10,11 +10,64 @@ img {
 }
 
 /*Body*/
-input,
-button {
+
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  border: 0px solid green;
+  
+}
+
+.header {
+  width: 100%;
+  margin: 1vw auto;
+  border: 0px solid green; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 3vw;
+  background-color: #E5BCD2;
+  border-radius: 10px;
+
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  
+}
+
+.main-colors {
+  width: 100%; 
+  flex: 1 1 100%; 
+  /*text-align: center;*/
+  line-height: 8vw;
+  border-radius: 10px;
+  
+ }
+
+ .color-element {
+   margin-left: 10%;
+ }
+
+ .copy-button {
+   margin-left: 60%;
+ }
+
+ 
+
+ 
+
+
+
+input, button {
   border: 2px solid #2a275c;
   padding: 0.5vw;
   border-radius: 10px;
+  margin: 0 auto;
 }
 
 button {
@@ -33,12 +86,6 @@ h1 {
   padding: 1vw;
 }
 
-.container {
-  display: flex;
-  margin: 0 auto;
-  border: 0px solid green;
-  width: 80%;
-}
 
 .bmi-text-container {
   flex: 1;
