@@ -5,11 +5,11 @@
   padding: 0;
 }
 
-img {
-  max-width: 100%;
-}
-
 /*Body*/
+
+body {
+  font-size: calc(10px + (16 - 10) * ((100vw - 300px) / (1600 - 300)));
+}
 
 
 .container {
@@ -30,11 +30,6 @@ img {
   background-color: #E5BCD2;
   border-radius: 10px;
 
-}
-
-.main {
- 
-  
 }
 
 .main-colors {
@@ -73,24 +68,6 @@ img {
 }
  
 
- .color-element {
-  /* margin-left: 30%;*/
-  
-  
- }
-
- .copy-button {
-   /*margin-left: 30%;*/
-   
-   
- }
-
- 
-
- 
-
-
-
 input, button {
   border: 2px solid #2a275c;
   padding: 0.5vw;
@@ -111,4 +88,6 @@ button {
 h1 {
   color: #2a275c;
   text-align: center;
+  
 }
+

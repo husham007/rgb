@@ -1,5 +1,5 @@
-# BMI
-This to learn DOM by building a small App that calculates Body Mass Index
+# RGB
+This to learn DOM, Random numbers, Hexa numbers by building a small App that calculates generate random color codes.
 # Technologies 
 - HTML
 - CSS
@@ -8,4 +8,4 @@ This to learn DOM by building a small App that calculates Body Mass Index
 # Author
 #### Husham
 # DEMO
-[Portfolio](https://husham007.github.io/BMI/)
+[Demo](https://husham007.github.io/rgb/)
